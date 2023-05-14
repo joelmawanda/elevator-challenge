@@ -10,13 +10,13 @@ The Elevator Simulator is a console application written in Java that simulates t
 •	Apache maven (for building the project).
 # Building the project
   1. Clone the repository git clone https://github.com/joelmawanda/elevator-challenge.git
-  2. Navigate to the project cd elevator-challenge
-  3. Build the project using maven maven clean package
+  2. Navigate to the project **cd elevator-challenge**
+  3. Build the project using maven **maven clean package**
 
 # Running the simulator
-  1. After successfully building the project, navigate to the target directory: cd target
-  2. Run the simulator using the following command: java =jar elevator-challenge.jar
-  3. Follow the on-screen instructions to interact with the simulator. You can request an elevator status, or exit the simulator.
+  1. After successfully building the project, navigate to the target directory: **cd target**
+  2. Run the simulator using the following command: **java =jar elevator-challenge.jar**
+  3. Follow the on-screen instructions to interact with the simulator. **You can request an elevator status, or exit the simulator.**
 
 # Customization
 The simulator allows for customization based on your requirements. Here are a few possible customization options:
