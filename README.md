@@ -15,7 +15,7 @@ The Elevator Simulator is a console application written in Java that simulates t
 
 # Running the simulator
   1. After successfully building the project, navigate to the target directory: **cd target**
-  2. Run the simulator using the following command: **java =jar elevator-challenge.jar**
+  2. Run the simulator using the following command: **java -jar elevator-challenge.jar**
   3. Follow the on-screen instructions to interact with the simulator. **You can request an elevator status, or exit the simulator.**
 
 # Customization
