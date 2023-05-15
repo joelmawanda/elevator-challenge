@@ -1,4 +1,4 @@
-package elevator;
+package main.java.com.elevator;
 
 public class Elevator {
     private int currentFloor;

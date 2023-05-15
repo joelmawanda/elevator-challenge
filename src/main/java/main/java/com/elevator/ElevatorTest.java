@@ -1,4 +1,4 @@
-package elevator;
+package main.java.com.elevator;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ public class ElevatorTest {
 
     @BeforeEach
     void setUp() {
-        elevator = new Elevator(1, 5); // Initialize elevator on floor 1 with weight limit of 5
+        elevator = new Elevator(1, 5); // Initialize main.java.elevator on floor 1 with weight limit of 5
     }
 
     @Test

@@ -1,4 +1,4 @@
-package elevator;
+package main.java.com.elevator;
 
 import java.util.Scanner;
 
@@ -19,8 +19,8 @@ public class ElevatorSimulator {
 
         while (true) {
             System.out.println("\n--- Elevator Simulator ---");
-            System.out.println("1. Request an elevator");
-            System.out.println("2. Update elevator status");
+            System.out.println("1. Request an main.java.elevator");
+            System.out.println("2. Update main.java.elevator status");
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
@@ -44,7 +44,7 @@ public class ElevatorSimulator {
                     elevatorManager.updateStatus();
                     break;
                 case 3:
-                    System.out.println("Exiting elevator simulator.");
+                    System.out.println("Exiting main.java.elevator simulator.");
                     scanner.close();
                     System.exit(0);
                 default:

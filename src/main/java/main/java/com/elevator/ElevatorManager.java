@@ -1,4 +1,4 @@
-package elevator;
+package main.java.com.elevator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class ElevatorManager {
         System.out.println("Elevator " + elevators.indexOf(nearestElevator) + " is arriving at floor " + floor);
 
         if (nearestElevator.isOverWeightLimit(numPeople)) {
-            System.out.println("Elevator " + elevators.indexOf(nearestElevator) + " cannot accommodate " + numPeople + " people. Please wait for the next elevator.");
+            System.out.println("Elevator " + elevators.indexOf(nearestElevator) + " cannot accommodate " + numPeople + " people. Please wait for the next main.java.elevator.");
             return;
         }
 
